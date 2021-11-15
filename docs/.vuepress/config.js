@@ -1,4 +1,5 @@
 module.exports = {
+    base: 'mo',
     theme: 'reco',
     themeConfig: {
        // 博客配置
