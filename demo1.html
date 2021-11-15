@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid red;
+        }
+        .up {
+        width: 100px;
+        height: 100px;
+        border: 1px solid blue;
+        margin: 100px;
+        }
+        .down {
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        margin: 100px;
+        display: inline-block; // 触发BFC
+        }
+    </style>
+</head>
+<body>
+    <div id="triangle-up"></div>
+    <div class="up">我在上面</div>
+    <div class="down">我在下面</div>
+    <script>
+        function test (person) {
+            person.age = 28
+            person = {
+                name: 'uuu',
+                age: 30
+            }
+            return person
+        }
+
+        const p1 = {
+            name: 'lzc',
+            age: 26
+        }
+        const p2 = test(p1)
+        console.log(p1)
+        console.log(p2)
+
+    </script>
+</body>
+</html>
