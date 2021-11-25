@@ -35,6 +35,15 @@ module.exports = {
             }
           ]
         },
+        {
+          text: '基础',
+          items: [
+            {
+              text: 'JS基础',
+						  link: '/Basic/BoxContent'
+            }
+          ]
+        },
       ]
     }
   }
