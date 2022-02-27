@@ -40,6 +40,10 @@ module.exports = {
           items: [
             {
               text: 'JS基础',
+						  link: '/Basic/BasicQ'
+            },
+            {
+              text: 'CSS基础',
 						  link: '/Basic/BoxContent'
             }
           ]
