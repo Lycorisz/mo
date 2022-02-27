@@ -44,7 +44,7 @@ module.exports = {
             },
             {
               text: 'CSS基础',
-						  link: '/Basic/BoxContent'
+						  link: '/CSS/BoxContent'
             }
           ]
         },
