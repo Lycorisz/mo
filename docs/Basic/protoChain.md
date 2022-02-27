@@ -1,9 +1,9 @@
 ---
 title: 原型链
-date: '2021-11-23'
+date: "2021-11-23"
 categories:
- - JavaScript
+  - JavaScript
 tags:
- - 基础
+  - 基础
 publish: true
 ---

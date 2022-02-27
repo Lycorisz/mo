@@ -1,23 +1,26 @@
 ---
 title: 盒模型&BFC
-date: '2021-11-23'
+date: "2021-11-23"
 categories:
- - JavaScript
+  - JavaScript
 tags:
- - 基础
+  - 基础
 publish: true
 ---
+
 # 盒模型
 
-### W3C标准盒模型
+### W3C 标准盒模型
+
 ```
     box-size: content-box
     width: content-width
 ```
 
-### IE盒模型
+### IE 盒模型
+
 ```
-    box-size: content-box
+    box-size: border-box
     width: content-width + border + padding
 ```
 
@@ -32,7 +35,9 @@ publish: true
     4. display（inline-block,table-cells,flex）
     5、overflow（除visible以外的的值，如hidden,auto,scroll）
 ```
+
 ### 特点：
+
 ```
     1. BFC内部块级盒子垂直排列。
     2. box的垂直方向距离由margin决定，属于同一个BFC的两个相邻box的margin会发生重叠。
