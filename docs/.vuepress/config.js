@@ -31,7 +31,7 @@ module.exports = {
           items: [
             {
               text: 'Vue基础使用',
-						  link: '/Vue/Vue_base'
+						  link: '/Vue/Readme'
             }
           ]
         },
@@ -40,14 +40,23 @@ module.exports = {
           items: [
             {
               text: 'JS基础',
-						  link: '/Basic/BasicQ'
+						  link: '/Basic/Readme'
             },
             {
               text: 'CSS基础',
-						  link: '/CSS/BoxContent'
+						  link: '/CSS/Readme'
             }
           ]
         },
+        {
+          text: '工作',
+          items: [
+            {
+              text: '技巧',
+						  link: '/Work/Readme'
+            }
+          ]
+        }
       ]
     }
   }
